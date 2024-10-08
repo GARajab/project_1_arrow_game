@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* start pc row */
+
+.container {
+  display: flex;
+  width: calc(100% -15px);
+  margin: 0 30px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.titleh1 {
+  justify-content: center;
+}
+
+.titleOfGame {
+  margin-top: 190px;
+}
+
+.titleh1 h3 {
+  margin-top: 90px;
+}
+
+.pc_row {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  min-width: 1560px;
+}
+
+.pccard {
+  min-width: 150px;
+  background-color: teal;
+  color: white;
+  text-align: center;
+  padding: 30px 5px;
+  border: 5px solid white;
+  margin-left: 100px;
+  width: 240px;
+  display: flex;
+  justify-content: center;
+}
+
+.pccard img {
+  width: 30px;
+}
+.player_row {
+  display: flex;
+  /* flex-wrap: wrap; */
+  margin-top: 150px;
+  /* justify-content: center; */
+  min-width: 1560px;
+  justify-content: space-between;
+  /* width: auto; */
+}
+
+.card {
+  min-width: 150px;
+  background-color: teal;
+  color: white;
+  text-align: center;
+  padding: 30px 5px;
+  border: 5px solid white;
+  display: flex;
+  margin-left: 100px;
+  flex-direction: column;
+  max-height: 104px;
+}
+
+.card img {
+  width: 30px;
+}
+
+.player0 {
+  margin: 0 -5px;
+}
+
+.card .controllers {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 240px;
+}
+.L0,
+.R0,
+.L1,
+.R1,
+.L2,
+.R2,
+.L3,
+.R3,
+.L4,
+.R4,
+.L5,
+.R5 {
+  /* display: flex; */
+  margin-top: 35px;
+  width: 100px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* .rightLeftControllers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 5px;
+  
+} */
+
+/* .rightLeftControllers button {
+  display: flex;
+  height: 20px;
+  width: 30px;
+} */
+
+/* .pc0,
+.pc1,
+.pc2,
+.pc3,
+.pc4,
+.pc5,
+.card {
+  display: flex;
+  width: 15%;
+  border: 5px solid blue;
+  margin-top: 90px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 30px;
+  margin-left: 10px;
+} */
+
+/* #player_row {
+  display: flex;
+  width: 100%;
+  margin-top: 100px;
+  margin-right: 30px;
+  margin-left: 30px;
+} */
+
+/* .player0,
+img {
+ 
+} */
+
+/* .player0,
+.player1,
+.player2,
+.player3,
+.player4,
+.player5 {
+  display: flex;
+  width: 15%;
+  border: 5px solid blue;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 90px;
+  padding: 30px;
+  margin-left: 10px;
+} */
+
+/* .arowBtns {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+} */
+
+/* btns and images */
+
+/* .arowBtns button {
+  margin-top: 10px;
+  padding: 10px;
+  width: 10px;
+}
+.arowBtns img {
+  margin-top: 10px;
+  padding: 10px;
+  width: 50px;
+} */
+/* end pc row */
+/* #reset {
+} */
